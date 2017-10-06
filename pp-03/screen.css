@@ -29,6 +29,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ==== LAYOUT STYLES ==== */
 #content {
   display: flex;
+  flex-flow: wrap;
 }
 
 #three,
@@ -51,7 +52,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @media screen and (min-width: 600px) {
-
+  #one,
+  #two{
+    height: 50vw;
+    width: 50vw;
+  }
+  #three{
+    height: 50vw;
+    width: 100vw;
+  }
 }
 
 @media screen and (min-width: 800px) {
