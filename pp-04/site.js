@@ -28,7 +28,7 @@
   function multiplier(factor) {
     return function(num) {
       return num * factor;
-    }
+    };
   }
 })();
 
