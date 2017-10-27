@@ -19,6 +19,19 @@ console.log('The value of x is:', x, 'It should be 5.');
 //  function can be accessed via the `window` global object,
 //  like `window.x`):
 
+(function(){
+  var x = 5;
+  var double = multiplier(2);
+
+  console.log(double(6));
+  console.log('The value of x is:', x, 'It should be 5.');
+
+  function multiplier(factor) {
+    return function(num) {
+      return num * factor;
+    }
+  }
+})();
 
 //  3. Correct this function so that there is no i variable in
 //  the global scope:
