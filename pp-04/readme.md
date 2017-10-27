@@ -1,4 +1,3 @@
-/* Production Problem 4*/
 
 ## ITMD 361, Production Problem 04: JavaScript Variable Scope
 
