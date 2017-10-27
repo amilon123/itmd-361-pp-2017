@@ -50,7 +50,7 @@ console.log(window.i); // should be 'undefined', not 3
 //  variable x declared on line 5 above. Write your explanation
 //  as JavaScript comments.
 
-//Answer:
+// Answer:
 // This function will not modify the global variable x declared on line 5 above
 // because it is not within the scope of the older function. Therefore,
 // if this newer function wanted to modify the already declared function above
