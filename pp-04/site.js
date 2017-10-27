@@ -42,7 +42,7 @@ function arrayEach(array, func) {
   }
 }
 
-arrayEach(['red','green','blue'], console.log);
+arrayEach(['red', 'green', 'blue'], console.log);
 
 console.log(window.i) // should be 'undefined', not 3
 
