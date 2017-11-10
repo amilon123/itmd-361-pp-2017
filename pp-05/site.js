@@ -9,4 +9,10 @@ $.noConflict();
   $('#doorbell').on('click', function() {
     doorbell.play();
   });
+
+  $(document).on('keypress', function(event) {
+    if(event.key === 'd') {
+      doorbell.play();
+    }
+  });
 })(jQuery);
